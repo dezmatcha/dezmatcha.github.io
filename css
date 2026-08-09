@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'dezmatcha';
+  src: url('./fonts/my-font.woff2') format('woff2');
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
