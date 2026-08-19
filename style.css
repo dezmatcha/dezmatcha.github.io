@@ -2,7 +2,10 @@ body {
   background-color: #1087ff;
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  margin:0;
+  margin:50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .page-container {
@@ -10,12 +13,23 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+.logo{
+  height: 100px;
+  width:auto;
+}
+
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: right;
+  
 }
 
 ul li a {
@@ -26,11 +40,11 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: blue;
+  background-color: #6fb8ff;
 }
 
 ul li a.active {
-  background-color: orange;
+  font-weight: bolder;
   color: white;
 }
 
@@ -46,13 +60,11 @@ h1{
 
 p{
   text-align: center;
-  
+
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  
   text-align: center;
   padding: 50px;
   color:white;
