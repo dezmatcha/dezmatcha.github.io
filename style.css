@@ -55,7 +55,8 @@ ul li a.active {
   }
   
   .logo {
-      height: 50px;
+      height: 35px;
+      padding: 0;
   }
 
 a {
