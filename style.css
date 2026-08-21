@@ -48,13 +48,13 @@ ul li a.active {
 }
 
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1500px) {
   .menu {
-      padding: 10px 6px;
+      padding: 10px 5px;
   }
   
   .logo {
-      height: 30x;
+      height: 20x;
       padding: 0;
   }
 }
