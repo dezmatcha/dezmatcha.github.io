@@ -51,11 +51,11 @@ ul li a.active {
 
 @media screen and (min-width: 500px) {
   .navbar {
-      padding: 10px 12px;
+      padding: 10px 6px;
   }
   
   .logo {
-      height: 35px;
+      height: 5px;
       padding: 0;
   }
 
