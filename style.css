@@ -34,9 +34,7 @@ ul {
 }
 
 ul li a {
-  display: block;
   color: white;
-  padding: 5px 12px;
   text-decoration: none;
 }
 
