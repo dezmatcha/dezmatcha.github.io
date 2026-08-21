@@ -49,7 +49,7 @@ ul li a.active {
   color: white;
 }
 
-<!--
+/*
 @media screen and (min-width: 500px) {
   .navbar {
       padding: 10px 6px;
@@ -59,7 +59,7 @@ ul li a.active {
       height: 5px;
       padding: 0;
   }
--->
+*/
 a {
     padding: 5px 12px;
 }
