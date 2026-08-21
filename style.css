@@ -36,7 +36,7 @@ ul {
 ul li a {
   display: block;
   color: white;
-  padding: 10px 12px;
+  padding: 5px 12px;
   text-decoration: none;
 }
 
@@ -53,10 +53,15 @@ ul li a.active {
   .navbar {
       padding: 10px 12px;
   }
-
+  
   .logo {
       height: 50px;
   }
+
+a {
+    padding: 5px 12px;
+}
+  
 }
 .container {
   display: flex;
