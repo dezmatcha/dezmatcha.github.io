@@ -135,7 +135,7 @@ a{
 
 }
 /* Base button styles */
-.custom-btn {
+.custom-btn, .ml-onclick-form {
   background-color: #1087ff; /* Blue background */
   color: white;              /* White text */
      /* Spacing inside the button */
@@ -153,10 +153,11 @@ a{
   cursor: url('star.png') 16 16, auto;
   user-select: none; 
   -webkit-user-select: none;
+  gap: 40px;
 }
 
 /* When the user hovers over the button */
-.custom-btn:hover {
+.custom-btn:hover, .ml-onclick-form:hover {
   background-color: #0b5fb3; /* Darker blue */
   cursor: url('star.png') 16 16, auto;
   user-select: none; 
@@ -164,7 +165,7 @@ a{
 }
 
 /* When the user clicks / holds down the button */
-.custom-btn:active {
+.custom-btn:active, .ml-onclick-form:hover {
   background-color: white; /* Deepest blue */
   transform: scale(0.98);    /* Slight shrink effect to mimic physical press */
   cursor: url('star.png') 16 16, auto;
@@ -172,6 +173,14 @@ a{
   -webkit-user-select: none;
 }
 
-h5{
+h2{
   text-align: center;
+}
+
+.ml-form-embedContainer{
+  gap: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
 }
