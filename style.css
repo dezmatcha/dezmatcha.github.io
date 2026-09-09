@@ -6,18 +6,26 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  
+  cursor: url('star.png') 16 16, auto;
 }
-
+body:active,
+body:focus, a:active {
+  cursor: url('star.png') 16 16, auto;
+}
 .page-container {
   display: flex;
   grid-template-rows: auto 1fr auto;
+  align-items: center;
+  padding:5px;
 }
+
+
 
 .logo{
   height: 100px;
   padding: 1em;
   width:auto;
+  cursor: url('star.png') 16 16, auto;
 }
 
 .menu{
@@ -30,25 +38,33 @@ ul {
   list-style-type: none;
   margin: 0;
   display: flex;
-  
 }
 
 ul li a {
   color: white;
   text-decoration: none;
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
 }
 
 ul li a:hover:not(.active) {
   background-color: #6fb8ff;
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
 }
 
 ul li a.active {
   font-weight: bolder;
   color: white;
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
 }
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 768px) {
   .menu {
       padding: 10px 5px;
   }
@@ -56,6 +72,7 @@ ul li a.active {
   .logo {
       height: 20x;
       padding: 0;
+      cursor: url('star.png') 16 16, auto;
   }
 }
 
@@ -103,6 +120,7 @@ img {
 }
 .contain{
   object-fit:contain;
+  
 }
 
 footer{
@@ -114,4 +132,46 @@ footer{
 
 a{
   color: white;
+
+}
+/* Base button styles */
+.custom-btn {
+  background-color: #1087ff; /* Blue background */
+  color: white;              /* White text */
+     /* Spacing inside the button */
+  font-size: 12px;
+  border: none;   
+  padding: 12px 12px;           /* Removes default browser border */
+  border-radius: 6px;        /* Rounded corners */
+  cursor: pointer;           /* Changes mouse cursor to a pointer hand */
+  transition: background 0.2s ease; /* Smooth visual transition */
+  text-align: center;
+  display: inline-block;
+  width: fit-content;
+  align-self: center;
+  text-decoration: none;
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
+}
+
+/* When the user hovers over the button */
+.custom-btn:hover {
+  background-color: #0b5fb3; /* Darker blue */
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
+}
+
+/* When the user clicks / holds down the button */
+.custom-btn:active {
+  background-color: white; /* Deepest blue */
+  transform: scale(0.98);    /* Slight shrink effect to mimic physical press */
+  cursor: url('star.png') 16 16, auto;
+  user-select: none; 
+  -webkit-user-select: none;
+}
+
+h5{
+  text-align: center;
 }
