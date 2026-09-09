@@ -22,7 +22,7 @@ body:focus, a:active {
 
 
 .logo{
-  height: 100px;
+  height: 50px;
   padding: 1em;
   width:auto;
   cursor: url('star.png') 16 16, auto;
@@ -64,13 +64,13 @@ ul li a.active {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
   .menu {
       padding: 10px 5px;
   }
   
   .logo {
-      height: 20x;
+      height: 5x;
       padding: 0;
       cursor: url('star.png') 16 16, auto;
   }
