@@ -1,6 +1,17 @@
+@font-face {
+  font-family: dezmatcha; /* set name */
+  src: url(DezMatcha-Regular.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(DezMatcha-Bold.ttf);
+  font-weight: bold;
+}
+
 body {
   background-color: #1087ff;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: dezmatcha, 'Courier New', Courier;
   color: white;
   margin:0;
   display: flex;
