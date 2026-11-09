@@ -85,6 +85,11 @@ ul li a.active {
       padding: 0;
       cursor: url('star.png') 16 16, auto;
   }
+  p{
+    text-align: center;
+    
+    margin: 25px 25px 25px;
+  }
 }
 
 a {
