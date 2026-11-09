@@ -93,11 +93,13 @@ h1, h2, h3, h4, h5 {
 
 p{
   text-align: center;
-  padding: 1em 3em 1em 3em;
+  
+  margin: 25px 200px 25px;
 }
 
 .wrapper {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
 }
 
